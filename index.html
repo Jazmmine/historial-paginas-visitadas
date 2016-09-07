@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Boton funciones</title>
+</head>
+<body>
+<script>
+	/* objeto: window.history
+   propiedad: length
+   método: forwrd() back() go() gocon corchetes-
+*/
+function siguiente (){
+	window.history.forward()
+}
+//history.forward() // Para movernos hacia delante
+//history.back
+//history.go(-3); // Vuelve hacia atrás 3 páginas
+//history.go(2); // Va hacia delante 2 páginas
+alert("has visitado " + history.length + " pásginas web visitadas en esta sesión del navegador")
+//history.length saber el numero de paginas visitadas en esa sesion
+</script>
+<button type="button" onclick="siguiente()">Siguiente</button>
+
+</body>
+</html>
